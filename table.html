@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/table.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>部屋決め会議システム</title>
+</head>
+<body>
+
+    <h2>部屋決め会議システム</h2>
+
+    <div class="round-display">現在の巡目: <span id="roundCount">1</span></div>
+
+    <button id="resetBtn">リセット</button>
+    <button id="confirmBtn">確定</button>
+
+    <table role="grid" aria-label="部屋ブロック一覧">
+        <thead>
+            <tr>
+                <th scope="col">ブロック</th>
+                <th scope="col">1人目</th>
+                <th scope="col">2人目</th>
+                <th scope="col">3人目</th>
+                <th scope="col">4人目</th>
+                <th scope="col">5人目</th>
+                <th scope="col">6人目</th>
+                <th scope="col">7人目</th>
+                <th scope="col">8人目</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- ブロックごとに1行 -->
+            <tr>
+                <th scope="row">A1</th>
+                <td><input type="text" name="A1-1"></td>
+                <td><input type="text" name="A1-2"></td>
+                <td><input type="text" name="A1-3"></td>
+                <td><input type="text" name="A1-4"></td>
+                <td><input type="text" name="A1-5"></td>
+                <td><input type="text" name="A1-6"></td>
+                <td><input type="text" name="A1-7"></td>
+                <td><input type="text" name="A1-8"></td>
+            </tr>
+            <tr>
+                <th scope="row">A2</th>
+                <td><input type="text" name="A2-1"></td><td><input type="text" name="A2-2"></td><td><input type="text" name="A2-3"></td><td><input type="text" name="A2-4"></td><td><input type="text" name="A2-5"></td><td><input type="text" name="A2-6"></td><td><input type="text" name="A2-7"></td><td><input type="text" name="A2-8"></td>
+            </tr>
+            <tr>
+                <th scope="row">A3</th>
+                <td><input type="text" name="A3-1"></td><td><input type="text" name="A3-2"></td><td><input type="text" name="A3-3"></td><td><input type="text" name="A3-4"></td><td><input type="text" name="A3-5"></td><td><input type="text" name="A3-6"></td><td><input type="text" name="A3-7"></td><td><input type="text" name="A3-8"></td>
+            </tr>
+            <tr>
+                <th scope="row">A4</th>
+                <td><input type="text" name="A4-1"></td><td><input type="text" name="A4-2"></td><td><input type="text" name="A4-3"></td><td><input type="text" name="A4-4"></td><td><input type="text" name="A4-5"></td><td><input type="text" name="A4-6"></td><td><input type="text" name="A4-7"></td><td><input type="text" name="A4-8"></td>
+            </tr>
+            <tr>
+                <th scope="row">B12</th>
+                <td><input type="text" name="B12-1"></td><td><input type="text" name="B12-2"></td><td><input type="text" name="B12-3"></td><td><input type="text" name="B12-4"></td><td><input type="text" name="B12-5"></td><td><input type="text" name="B12-6"></td><td><input type="text" name="B12-7"></td><td><input type="text" name="B12-8"></td>
+            </tr>
+            <tr>
+                <th scope="row">B3</th>
+                <td><input type="text" name="B3-1"></td><td><input type="text" name="B3-2"></td><td><input type="text" name="B3-3"></td><td><input type="text" name="B3-4"></td><td><input type="text" name="B3-5"></td><td><input type="text" name="B3-6"></td><td><input type="text" name="B3-7"></td><td><input type="text" name="B3-8"></td>
+            </tr>
+            <tr>
+                <th scope="row">B4</th>
+                <td><input type="text" name="B4-1"></td><td><input type="text" name="B4-2"></td><td><input type="text" name="B4-3"></td><td><input type="text" name="B4-4"></td><td><input type="text" name="B4-5"></td><td><input type="text" name="B4-6"></td><td><input type="text" name="B4-7"></td><td><input type="text" name="B4-8"></td>
+            </tr>
+            <tr>
+                <th scope="row">C12</th>
+                <td><input type="text" name="C12-1"></td><td><input type="text" name="C12-2"></td><td><input type="text" name="C12-3"></td><td><input type="text" name="C12-4"></td><td><input type="text" name="C12-5"></td><td><input type="text" name="C12-6"></td><td><input type="text" name="C12-7"></td><td><input type="text" name="C12-8"></td>
+            </tr>
+            <tr>
+                <th scope="row">C34</th>
+                <td><input type="text" name="C34-1"></td><td><input type="text" name="C34-2"></td><td><input type="text" name="C34-3"></td><td><input type="text" name="C34-4"></td><td><input type="text" name="C34-5"></td><td><input type="text" name="C34-6"></td><td><input type="text" name="C34-7"></td><td><input type="text" name="C34-8"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="./colar.js" >
+       
+        </script>
+    <script src="./bottun.js" ></script> 
+
+</body>
+</html>
